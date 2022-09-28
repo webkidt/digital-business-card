@@ -3,9 +3,11 @@ function About() {
     <div className='about--wrapper'>
       <h3 className='about--title'>About</h3>
       <p className='about--text'>
-        I am a frontend developer with a particular interest in making things simple and
-        automating daily tasks. I try to keep up with security and best practices, and am
-        always looking for new things to learn.
+        I am a passionate full-stack web developer with 2+ years of experience. I am
+        conversant with programming languages such as: C, C++, Python and JavaScript. I am
+        also conversant with JavaScript front-end libraries such as Angular, React and
+        back-end libraries such as Nodejs and MongoDB. I believe i am well equipped with
+        the necessary skills to move any company or institution forward.
       </p>
     </div>
   );

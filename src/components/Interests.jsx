@@ -3,8 +3,8 @@ function Interests() {
     <div className='interests--wrapper'>
       <h3 className='interests--title'>Interests</h3>
       <p className='interests--text'>
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur.
-        Travel geek. Pop culture ninja. Coffee fanatic.
+        Music scholar. Gamer. Internet fanatic. Travel geek. Pop culture ninja. Food
+        expert.
       </p>
     </div>
   );
