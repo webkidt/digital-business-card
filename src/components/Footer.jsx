@@ -8,11 +8,11 @@ import {
 
 function Footer() {
   return (
-    <div>
-      <FontAwesomeIcon icon={faTwitterSquare} />
-      <FontAwesomeIcon icon={faFacebookSquare} />
-      <FontAwesomeIcon icon={faInstagramSquare} />
-      <FontAwesomeIcon icon={faGithubSquare} />
+    <div className='footer--wrapper'>
+      <FontAwesomeIcon className='footer--social-icon' icon={faTwitterSquare} />
+      <FontAwesomeIcon className='footer--social-icon' icon={faFacebookSquare} />
+      <FontAwesomeIcon className='footer--social-icon' icon={faInstagramSquare} />
+      <FontAwesomeIcon className='footer--social-icon' icon={faGithubSquare} />
     </div>
   );
 }

@@ -1,7 +1,8 @@
 .app--container {
   max-width: 350px;
   margin: 40px auto;
-  background-color: #1A1B21;
+  background-color: #1a1b21;
+  border-radius: 10px;
 }
 
 .info--wrapper {
@@ -11,9 +12,22 @@
   justify-content: center;
   align-items: center;
 }
-.info--profile-picture {
-  /* max-height: 400px; */
+
+/* .info--profile-picture {
+  max-height: 400px;
   max-width: 100%;
+} */
+
+.info--dp {
+  width: 100%;
+  /* max-height: 300px; */
+  height: 320px;
+  background-image: url('./assets/nirat-02.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  border-radius: 10px 10px 0 0;
 }
 
 .info--name {
@@ -26,14 +40,14 @@
   margin: 6px 0 0 0;
   font-weight: 400;
   font-size: 13px;
-  color: #F3BF99;
+  color: #f3bf99;
 }
 
 .info--website {
   margin-top: 8px;
   font-weight: 400;
   font-size: 11px;
-  color: #F5F5F5;
+  color: #f5f5f5;
   text-decoration: none;
 }
 
@@ -55,22 +69,76 @@
 }
 
 .info--button-envelope {
-  background-color: #FFFFFF;
-  border: 1px solid #D1D5DB;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   color: #374151;
 }
 
 .info--button-linkedin {
-  background-color: #5093E2;
-  border: 1px solid #5093E2;
-  color: #FFFFFF;
+  background-color: #5093e2;
+  border: 1px solid #5093e2;
+  color: #ffffff;
 }
 
 .info--envelope-icon {
   margin-right: 8px;
-  color: #1E1F26;
+  color: #1e1f26;
 }
-.info--linkedin-icon{
+.info--linkedin-icon {
   margin-right: 8px;
+}
+
+.about--wrapper {
+  margin: 33px 36px 0 36px;
+}
+
+.about--title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.about--text {
+  margin: 5px 0 0 0;
+  font-size: 10.5px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.interests--title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.interests--text {
+  margin: 5px 0 0 0;
+  font-size: 10.5px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.interests--wrapper {
+  margin: 27px 36px 0 36px;
+}
+
+.footer--wrapper {
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.footer--social-icon {
+  font-size: 30px;
+  /* width: 25px;
+  height: 25px; */
+  color: #918e9b;
 }
